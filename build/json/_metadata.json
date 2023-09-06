@@ -1,0 +1,217 @@
+[
+  {
+    "dna": "1fb157a7df50297bad646b5be0f9766aa0fa753d",
+    "name": "#1",
+    "description": "fakk",
+    "image": "ipfs://QmYrR4SansJRFxQiYm3U2JJHytDPapWjjf2mxoe3LLNYZX/1.png",
+    "edition": 1,
+    "date": 1694012512415,
+    "attributes": [
+      {
+        "trait_type": "1#Background",
+        "value": "Black"
+      },
+      {
+        "trait_type": "2#Skin",
+        "value": "skin"
+      },
+      {
+        "trait_type": "3#Eyes",
+        "value": "eyes"
+      },
+      {
+        "trait_type": "4#Mouth",
+        "value": "mouth"
+      },
+      {
+        "trait_type": "5#Ears",
+        "value": "Ears"
+      },
+      {
+        "trait_type": "6#Back",
+        "value": "Back"
+      },
+      {
+        "trait_type": "7#Cloth",
+        "value": "cloth"
+      },
+      {
+        "trait_type": "8#Head",
+        "value": "head"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "8bb39686b4f0b9fb4dd8a690650857e5dc6ce4f3",
+    "name": "#2",
+    "description": "fakk",
+    "image": "ipfs://QmYrR4SansJRFxQiYm3U2JJHytDPapWjjf2mxoe3LLNYZX/2.png",
+    "edition": 2,
+    "date": 1694012515102,
+    "attributes": [
+      {
+        "trait_type": "1#Background",
+        "value": "Black"
+      },
+      {
+        "trait_type": "2#Skin",
+        "value": "skin"
+      },
+      {
+        "trait_type": "3#Eyes",
+        "value": "eyes"
+      },
+      {
+        "trait_type": "4#Mouth",
+        "value": "mouth"
+      },
+      {
+        "trait_type": "5#Ears",
+        "value": "Ears"
+      },
+      {
+        "trait_type": "6#Back",
+        "value": "Back"
+      },
+      {
+        "trait_type": "7#Cloth",
+        "value": "cloth"
+      },
+      {
+        "trait_type": "8#Head",
+        "value": "head"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "d70759be56f78f6529303fd73a2297e30d66ad27",
+    "name": "#3",
+    "description": "fakk",
+    "image": "ipfs://QmYrR4SansJRFxQiYm3U2JJHytDPapWjjf2mxoe3LLNYZX/3.png",
+    "edition": 3,
+    "date": 1694012517732,
+    "attributes": [
+      {
+        "trait_type": "1#Background",
+        "value": "Black"
+      },
+      {
+        "trait_type": "2#Skin",
+        "value": "skin"
+      },
+      {
+        "trait_type": "3#Eyes",
+        "value": "eyes"
+      },
+      {
+        "trait_type": "4#Mouth",
+        "value": "mouth"
+      },
+      {
+        "trait_type": "5#Ears",
+        "value": "Ears"
+      },
+      {
+        "trait_type": "6#Back",
+        "value": "Back"
+      },
+      {
+        "trait_type": "7#Cloth",
+        "value": "cloth"
+      },
+      {
+        "trait_type": "8#Head",
+        "value": "head"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "ec0acb1a4ba7f5394a829673bcf7e41daff28dca",
+    "name": "#4",
+    "description": "fakk",
+    "image": "ipfs://QmYrR4SansJRFxQiYm3U2JJHytDPapWjjf2mxoe3LLNYZX/4.png",
+    "edition": 4,
+    "date": 1694012520399,
+    "attributes": [
+      {
+        "trait_type": "1#Background",
+        "value": "Black"
+      },
+      {
+        "trait_type": "2#Skin",
+        "value": "skin"
+      },
+      {
+        "trait_type": "3#Eyes",
+        "value": "eyes"
+      },
+      {
+        "trait_type": "4#Mouth",
+        "value": "mouth"
+      },
+      {
+        "trait_type": "5#Ears",
+        "value": "Ears"
+      },
+      {
+        "trait_type": "6#Back",
+        "value": "Back"
+      },
+      {
+        "trait_type": "7#Cloth",
+        "value": "cloth"
+      },
+      {
+        "trait_type": "8#Head",
+        "value": "head"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "dna": "22b4b01957afc4ce8f221dd78837e7a58c8dba22",
+    "name": "#5",
+    "description": "fakk",
+    "image": "ipfs://QmYrR4SansJRFxQiYm3U2JJHytDPapWjjf2mxoe3LLNYZX/5.png",
+    "edition": 5,
+    "date": 1694012522845,
+    "attributes": [
+      {
+        "trait_type": "1#Background",
+        "value": "Black"
+      },
+      {
+        "trait_type": "2#Skin",
+        "value": "skin"
+      },
+      {
+        "trait_type": "3#Eyes",
+        "value": "eyes"
+      },
+      {
+        "trait_type": "4#Mouth",
+        "value": "mouth"
+      },
+      {
+        "trait_type": "5#Ears",
+        "value": "Ears"
+      },
+      {
+        "trait_type": "6#Back",
+        "value": "Back"
+      },
+      {
+        "trait_type": "7#Cloth",
+        "value": "cloth"
+      },
+      {
+        "trait_type": "8#Head",
+        "value": "head"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  }
+]

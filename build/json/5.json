@@ -1,0 +1,43 @@
+{
+  "dna": "22b4b01957afc4ce8f221dd78837e7a58c8dba22",
+  "name": "#5",
+  "description": "fakk",
+  "image": "ipfs://QmYrR4SansJRFxQiYm3U2JJHytDPapWjjf2mxoe3LLNYZX/5.png",
+  "edition": 5,
+  "date": 1694012522845,
+  "attributes": [
+    {
+      "trait_type": "1#Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "2#Skin",
+      "value": "skin"
+    },
+    {
+      "trait_type": "3#Eyes",
+      "value": "eyes"
+    },
+    {
+      "trait_type": "4#Mouth",
+      "value": "mouth"
+    },
+    {
+      "trait_type": "5#Ears",
+      "value": "Ears"
+    },
+    {
+      "trait_type": "6#Back",
+      "value": "Back"
+    },
+    {
+      "trait_type": "7#Cloth",
+      "value": "cloth"
+    },
+    {
+      "trait_type": "8#Head",
+      "value": "head"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

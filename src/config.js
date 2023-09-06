@@ -1,38 +1,25 @@
-const basePath = process.cwd();
-const { MODE } = require(`${basePath}/constants/blend_mode.js`);
-const { NETWORK } = require(`${basePath}/constants/network.js`);
+"use strict";
 
-const network = NETWORK.eth;
+const path = require("path");
+const isLocal = typeof process.pkg === "undefined";
+const basePath = isLocal ? process.cwd() : path.dirname(process.execPath);
+const { MODE } = require(path.join(basePath, "constants/blend_mode.js"));
+const description =
+  "fakk";
+const baseUri = "ipfs://QmYrR4SansJRFxQiYm3U2JJHytDPapWjjf2mxoe3LLNYZX";
 
-// General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
-const baseUri = "ipfs://NewUriToReplace";
-
-const solanaMetadata = {
-  symbol: "YC",
-  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
-  creators: [
-    {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
-      share: 100,
-    },
-  ],
-};
-
-// If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo:5,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "1#Background" },
+      { name: "2#Skin" },
+      { name: "3#Eyes" },
+      { name: "4#Mouth" },
+      { name: "5#Ears" },
+      { name: "6#Back" },
+      { name: "7#Cloth" },
+      { name: "8#Head" },
     ],
   },
 ];
@@ -42,16 +29,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
-  smoothing: false,
-};
-
-const gif = {
-  export: false,
-  repeat: 0,
-  quality: 100,
-  delay: 500,
+  width: 521,
+  height: 521,
 };
 
 const text = {
@@ -82,22 +61,13 @@ const extraMetadata = {};
 
 const rarityDelimiter = "#";
 
-const uniqueDnaTorrance = 10000;
+const uniqueDnaTorrance = 100;
 
 const preview = {
   thumbPerRow: 5,
   thumbWidth: 50,
-  imageRatio: format.height / format.width,
+  imageRatio: format.width / format.height,
   imageName: "preview.png",
-};
-
-const preview_gif = {
-  numberOfImages: 5,
-  order: "ASC", // ASC, DESC, MIXED
-  repeat: 0,
-  quality: 100,
-  delay: 500,
-  imageName: "preview.gif",
 };
 
 module.exports = {
@@ -114,9 +84,4 @@ module.exports = {
   extraMetadata,
   pixelFormat,
   text,
-  namePrefix,
-  network,
-  solanaMetadata,
-  gif,
-  preview_gif,
 };
